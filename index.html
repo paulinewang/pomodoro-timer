@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Pomodoro timer</title>
+    <meta charset='UTF-8'>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>Pomodoro timer</h1>
+
+        <div id="sessionInfo">
+            <button id="session-decrement" class="time-control">&#x25BD;</button>
+            <div id="time">25:00</div>
+            <button id="session-increment" class="time-control">&#x25B3;</button>        
+        </div>
+
+
+        <div id="sessionControl">
+            <button id="start">start</button>
+            <button id="stop">stop</button>
+            <button id="reset">reset</button>
+        </div>
+
+    </div> <!-- end of div container -->  
+
+    <div class="credits">
+        <footer>Built and designed by <a href="https://github.com/paulinewang">Pauline Wang</a></footer>
+    </div>
+<script src="pomodoro.js"></script>
+</body>
+</html>
